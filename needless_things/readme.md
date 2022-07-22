@@ -1,0 +1,57 @@
+# "Выделение групп пользователей сервиса «Ненужные вещи» на основе поведения"
+
+## Описание проекта: датасет содержит данные о событиях, совершенных пользователями в мобильном приложении "Ненужные вещи" впервые после 7 октября 2019 года. В этом приложении пользователи продают свои ненужные вещи, размещая их на доске объявлений
+## Цель проекта - сформировать группы пользователей на основе их поведения (значений метрик)
+## Описание данных:
+
+### Датасет **mobile_dataset.csv** содержит колонки:
+`event.time` — время совершения
+`event.name` — название события
+`user.id` — идентификатор пользователя
+
+### Датасет **mobile_sources.csv** содержит колонки:
+`userId` — идентификатор пользователя
+`source` — источник, с которого пользователь установил приложение
+
+### Расшифровки событий:
+`advert_open` — открытие карточки объявления
+
+
+`photos_show` — просмотр фотографий в объявлении
+
+
+`tips_show` — пользователь увидел рекомендованные объявления
+
+`tips_click` — пользователь кликнул по рекомендованному объявлению
+
+`contacts_show` и `show_contacts` — пользователь нажал на кнопку "посмотреть номер телефона" на карточке объявления
+
+`contacts_call` — пользователь позвонил по номеру телефона на карточке объявления
+
+`map` — пользователь открыл карту размещенных объявлений
+
+`search_1` — `search_7` — разные события, связанные с поиском по сайту
+
+`favorites_add` — добавление объявления в избранное
+
+<u>Импорт библиотек и настройки:</u>
+
+import pandas as pd
+import datetime as dt
+from matplotlib import pyplot as plt
+import numpy as np
+import matplotlib.ticker as ticker
+from plotly import graph_objects as go
+import seaborn as sns
+from datetime import datetime, timedelta
+from sklearn.preprocessing import StandardScaler
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+import scipy.stats as stats
+import math as mth
+
+pd.options.mode.chained_assignment = None  # default='warn'
+%matplotlib inline
+pd.set_option('display.max_colwidth', None)  #текст в ячейке отражается полностью
+pd.set_option('display.float_format', '{:.2f}'.format) # формат чисел по умолчанию в таблицах с 2 знаками после запятой
