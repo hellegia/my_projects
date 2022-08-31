@@ -3,7 +3,9 @@
 Репозиторий содержит портфолио проектов по анализу данных, выполненных Ольгой Мельниковой во время обучения на курсе "Анализ данных" от Яндекс Практикумaining courses at [Yandex.Praktikum](https://praktikum.yandex.ru/)
 Представлен в формате тетрадок Jupyter Notebooks и ридми файлов с разметкой markdown.
 
-[Сертификат]: https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf
+
+
+[https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf Сертификат]: 
 
 Сертификат об окончании курса (Русская версия)
 
