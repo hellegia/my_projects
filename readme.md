@@ -1,19 +1,16 @@
 ![img](https://sun9-79.userapi.com/impf/xZpU-hlLA2D9nJyOgzdpzuYkhtS0DXo1UrQnXg/ROQJjyeeUl0.jpg?size=968x480&quality=96&sign=5f1a5cbb8e049e2e27352abc9539b518&type=share)
 
-Репозиторий содержит портфолио проектов по анализу данных, выполненных Ольгой Мельниковой во время обучения на курсе "Анализ данных" от Яндекс Практикумaining courses at [Yandex.Praktikum](https://praktikum.yandex.ru/)
-Представлен в формате тетрадок Jupyter Notebooks и ридми файлов с разметкой markdown.
+Репозиторий содержит портфолио проектов по анализу данных, 
+
+выполненных Ольгой Мельниковой во время обучения на курсе "Анализ данных" от [Яндекс.Практикум](https://practicum.yandex.ru/)
+
+Представлен в формате тетрадок Jupyter Notebooks и readmy файлов с markdown разметкой.
 
 
 
-Сертификат:[https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf ]
+[Сертификат об окончании курса (English version)](  https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf )
 
-Сертификат об окончании курса (Русская версия) 
-
-
-
-
-
-
+[Сертификат об окончании курса (Русская версия)](https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_ru.pdf)
 
 
 
