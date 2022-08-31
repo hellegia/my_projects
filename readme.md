@@ -5,9 +5,9 @@
 
 
 
-[https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf Сертификат]: 
+Сертификат:[https://github.com/hellegia/yandex_practicum/blob/main/yandex_da_certificate_en.pdf ]
 
-Сертификат об окончании курса (Русская версия)
+Сертификат об окончании курса (Русская версия) 
 
 
 
